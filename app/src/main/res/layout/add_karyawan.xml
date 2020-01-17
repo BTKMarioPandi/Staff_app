@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="NIK"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/addnik"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/addnama"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="Tempat Lahir"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/addtmplahir"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="Tanggal Lahir"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/addtgllahir"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="Alamat"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/addalamat"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="Kelamin"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/addkelamin"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="Agama"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/addagama"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="132dp"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:id="@+id/addstatus"
+        android:layout_width="293dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="Pendidikan"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/addpendidikan"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="Jabatan"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/addjabatan"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Simpan"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/btnsimpan"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Edit"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/btnupdate"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="Hapus"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/btndelete"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="View"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/btnview"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="292dp"
+        android:layout_height="53dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="150dp"
+        android:text="Staff APP"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_width="292dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnadd"
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:background="@color/Hijau"
+            android:text="Input Data Karyawan" />
+
+        <Button
+            android:id="@+id/btnvw"
+            android:layout_width="294dp"
+            android:layout_height="wrap_content"
+            android:background="@color/merah"
+            android:text="Tampil Data Karyawan" />
+    </LinearLayout>
+
+</LinearLayout>
