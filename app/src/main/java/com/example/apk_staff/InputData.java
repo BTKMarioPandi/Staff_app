@@ -38,13 +38,38 @@ public class InputData extends AppCompatActivity {
         pndd=(EditText)findViewById(R.id.addpendidikan);
         jabatann=(EditText)findViewById(R.id.addjabatan);
 
-        final String nik = getIntent().getStringExtra("Nik");
 
+        final String nik = getIntent().getStringExtra("Nik");
         if (nik !=null){
-            String na=getIntent().getStringExtra("Nama");
+            String name = getIntent().getStringExtra("Nama");
+            String tmplhr = getIntent().getStringExtra("Tempat Lahir");
+            String tgl = getIntent().getStringExtra("Tanggal Lahir");
+            String addres = getIntent().getStringExtra("Alamat");
+            String genre = getIntent().getStringExtra("Kelamin");
+            String religi = getIntent().getStringExtra("Agama");
+            String sta = getIntent().getStringExtra("Status");
+            String pdkkn = getIntent().getStringExtra("Pendidikan");
+            String jbtn = getIntent().getStringExtra("Jabatan");
+
             nikk.setText(nik);
-            namaa.setText(na);
+            namaa.setText(name);
+            tempatl.setText(tmplhr);
+            tgll.setText(tgl);
+            tempatl.setText(addres);
+            kelamin.setText(genre);
+            agamaa.setText(religi);
+            statuss.setText(sta);
+            pndd.setText(pdkkn);
+            jabatann.setText(jbtn);
+
             simpann.setVisibility(View.GONE);
+
+
+
+
+
+
+
         }
 
         deletee.setOnClickListener(new View.OnClickListener() {

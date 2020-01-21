@@ -7,6 +7,11 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="horizontal">
 
         <TextView
@@ -174,51 +179,61 @@
             android:layout_height="wrap_content" />
 
     </LinearLayout>
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="20dp">
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp">
+
         <Button
-            android:layout_width="match_parent"
+            android:id="@+id/btnsimpan"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:text="Simpan"
-            android:textColor="@color/cardview_dark_background"
             android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:id="@+id/btnsimpan"/>
+            android:layout_marginRight="20dp"
+            android:text="Simpan"
+            android:textAlignment="center"
+            android:background="@color/Hijau"
+            android:textColor="@color/cardview_dark_background" />
         <Button
-            android:layout_width="match_parent"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:text="Edit"
+            android:background="@color/merah"
             android:textColor="@color/cardview_dark_background"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginRight="40dp"
             android:id="@+id/btnupdate"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
         <Button
-            android:layout_width="match_parent"
+            android:id="@+id/btndelete"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
-            android:textAlignment="center"
-            android:text="Hapus"
-            android:textColor="@color/cardview_dark_background"
             android:layout_marginLeft="40dp"
-            android:layout_marginRight="40dp"
-            android:id="@+id/btndelete"/>
+            android:background="@color/merah"
+            android:layout_marginRight="20dp"
+            android:text="Hapus"
+            android:textAlignment="center"
+            android:textColor="@color/cardview_dark_background" />
         <Button
-            android:layout_width="match_parent"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:textAlignment="center"
             android:text="View"
             android:textColor="@color/cardview_dark_background"
-            android:layout_marginLeft="40dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginRight="40dp"
+            android:background="@color/Hijau"
             android:id="@+id/btnview"/>
-
-
     </LinearLayout>
-
 
 
 

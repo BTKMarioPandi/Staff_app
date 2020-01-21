@@ -65,18 +65,18 @@ public class AdapterKaryawan extends RecyclerView.Adapter<AdapterKaryawan.Holder
                 @Override
                 public void onClick(View view) {
                     Intent godata = new Intent(ctx,InputData.class);
-                    godata.putExtra("Nik ",dk.getNik());
-                    godata.putExtra("Nama ",dk.getNama());
-                    godata.putExtra("Tempat Lahir ",dk.getTempat_lahir());
-                    godata.putExtra("Tanggal Lahir ",dk.getTgl_lahir());
-                    godata.putExtra("Alamat ",dk.getAlamat());
-                    godata.putExtra("Kelamin ",dk.getKelamin());
-                    godata.putExtra("Agama ",dk.getAgama());
-                    godata.putExtra("Status ",dk.getStatus());
-                    godata.putExtra("Pendidikan ",dk.getPendidikan());
-                    godata.putExtra("Jabatan ",dk.getJabatan());
+                    godata.putExtra("Nik",dk.getNik());
+                    godata.putExtra("Nama",dk.getNama());
+                    godata.putExtra("Tempat Lahir",dk.getTempat_lahir());
+                    godata.putExtra("Tanggal Lahir",dk.getTgl_lahir());
+                    godata.putExtra("Alamat",dk.getAlamat());
+                    godata.putExtra("Kelamin",dk.getKelamin());
+                    godata.putExtra("Agama",dk.getAgama());
+                    godata.putExtra("Status",dk.getStatus());
+                    godata.putExtra ("Pendidikan",dk.getPendidikan());
+                    godata.putExtra("Jabatan",dk.getJabatan());
 
-                    ctx.startActivity((godata));
+                    ctx.startActivity(godata);
 
 
                 }
